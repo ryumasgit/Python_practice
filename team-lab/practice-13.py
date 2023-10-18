@@ -1,4 +1,4 @@
-# 繰り返しとスライスの問題
+# 問題13: 繰り返しとスライスの問題
 def sheep_count():
     sheep = ""
     for i in range(1,100001):
