@@ -11,9 +11,9 @@ def fibonacci_sequence(target):
     else:
         num1 = 0
         num2 = 1
-        
+
         for i in range(3,target + 1):
           num1, num2 = num2, num1 + num2
         return num2
-      
-print(fibonacci_sequence(-15))
+
+print(fibonacci_sequence(5))
