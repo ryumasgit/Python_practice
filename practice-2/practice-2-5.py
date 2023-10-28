@@ -4,3 +4,10 @@
 # 期待する出力：0.23076923076923078
 list1 = [12,23,34,45,56,67,78,89]
 list2 = [21,32,43,45,65,67,78,98]
+
+A = set(list1)
+B = set(list2)
+top_list = A & B
+bottom_list = A | B
+
+print(len(top_list) / len(bottom_list))

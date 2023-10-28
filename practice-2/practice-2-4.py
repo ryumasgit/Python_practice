@@ -3,3 +3,12 @@
 # ヒント：改行記号でsplitしてから空白でsplitすれば，単語に分割できます．
 # 期待する出力：{'i': 2, 'bought': 1, 'an': 1, 'apple': 1, '.': 3, 'ate': 1, 'it': 2, 'is': 1, 'delicious': 1}
 doc = 'i bought an apple .\ni ate it .\nit is delicious .'
+word2freq = {}
+
+lines = doc.split("\n")
+for line in lines:
+    word_separate_space = line.split()
+    for word in word_separate_space:
+        word2freq[word] = word2freq.get(word, 0) + 1
+
+print(word2freq)
