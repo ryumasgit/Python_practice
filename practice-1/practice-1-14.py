@@ -13,5 +13,5 @@ def calculation_divisor_total(target):
                   total += i
         return total
 
-target = 4
+target = 109
 print(calculation_divisor_total(target))
