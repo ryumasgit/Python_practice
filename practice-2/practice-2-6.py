@@ -1,4 +1,4 @@
-# 問題2-5: 渋滞の距離
+# 問題2-6: 渋滞の距離
 
 input_data = [5,6,25,4]
 car_value, separate_min_limit = 5,10
