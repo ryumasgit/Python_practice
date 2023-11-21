@@ -4,13 +4,15 @@
 def GCD(target1, target2):
     divior = []
     min_num = min(target1, target2)
+
     for i in range(2,min_num + 1):
         if target1 % i == 0 and target2 % i == 0:
             divior.append(i)
-        else:
-            return "公約数はありません"
+    if not divior:
+        return "公約数はありません"
+
     return max(divior)
 
-target1 = 3
-target2 = 2
+target1 = 100
+target2 = 512
 print(GCD(target1, target2))

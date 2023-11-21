@@ -16,4 +16,4 @@ def fibonacci_sequence(target):
           num1, num2 = num2, num1 + num2
         return num2
 
-print(fibonacci_sequence(5))
+print(fibonacci_sequence(6))
