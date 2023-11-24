@@ -1,4 +1,4 @@
-#問題4-3: 宿泊費と交通費
+#問題4-4: 宿泊費と交通費
 
 transportation_expenses, accommodation_fee, executions = 200, 300, 3
 cost = 0

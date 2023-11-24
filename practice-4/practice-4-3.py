@@ -1,4 +1,4 @@
-#問題4-2: 嫌いな数字
+#問題4-3: テストの採点
 persons, min_score = 5, 25
 input_data = [[80,11],[20,1],[50,2],[70,0],[25,1]]
 for i in range(persons):

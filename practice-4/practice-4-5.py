@@ -1,4 +1,4 @@
-#問題4-4: 観光の計画
+#問題4-5: 観光の計画
 spot_executions = 3
 staying_time = [2,1,4]
 travel_time = [[0,3,2],[3,0,8],[2,8,0]]
